@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <title> Trabalho 2ºTrimestre - Formuláro </title>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+    <p class="titulo1"><b>Desenvolvimento de Web II</b></p>
+    <p class="titulo2">Discente: Gabriel Luís Bevilacqua</p>
+    <p class="titulo2">Docente: Ernani Gottardo</p>
+
+    <hr />
+    <br />
+    <br />
+
+<!--<h2>Formulário:</h2>!-->
+    <!--Atividade 1:!-->
+
+    <div class="container">
+    <form id='form1' action="/teste.php" method="post">
+   
+        <h2>Cadastro</h2>
+
+        <label for="name">Nome:</label><br>
+        <input type="text" id='nm1' name="nome" placeholder="Nome"><br>
+
+        <br />
+
+        <label for="email">Email:</label><br>
+        <input type="text" id='email' name="email" maxlength="40"placeholder="Email"><br>
+
+        <br />
+
+        <label for="email">CPF:</label><br>
+        <input type="text" id='cpf' name="cpf" maxlength="11" placeholder="___.___.___-__"><br>
+         
+        <br />
+
+        <label for="genero">Gênero:</label><br>
+        <select type='text' id='gen'>
+            <option value='nd' id='nd'> </option>
+            <option value='m'> Masculino </option>
+            <option value='f'> Feminino </option>
+            <option value='nb'> Não-Binário </option>
+            <option value='o'> Outro </option>
+        </select><br>
+
+        <br />
+
+        <label for="calendario">Aniversário:</label><br>
+        <input type="date" id="calen" name="calendario"><br><br>
+
+        <br />
+
+        <!--<input type="button" value="Validar" id='validar'>!-->
+
+        <button class="button" id="validar" value="Validar" onClick="cliqueBtn()" type='button'> Validar </button>
+        <button class="button" id="resetar" value="resetar" onClick="cliqueBtn()" type='reset''> Resetar </button>
+
+        <br />
+
+        <p id='erro1'></p>
+        <p id='erro2'></p>
+        <p id='erro3'></p>
+        <p id='erro4'></p>
+        <p id='erro5'></p>
+        <p id='erro6'></p>
+        <p id='erro7'></p>
+        <p id='erro8'></p>
+        <p id='certo'></p>
+
+    </form>
+</div>
+
+<script type="text/javascript" src="js/trabalho.js"></script>
+
+</body>
+</html>

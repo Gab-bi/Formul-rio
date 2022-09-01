@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 46, 46);
+    color: white;
+    
+}
+
+.titulo1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulo2 {
+    text-align: center;
+}
+
+#img {
+    text-align: center;
+}
+
+/*.imgs {
+    height: 250px;
+    left: 250px;
+}*/
+
+.borda {
+    box-shadow: 0 0 5px 1px red;
+    border-color: red;
+}
+
+form {
+    text-align: center;
+
+} 
+
+legend {
+    font-size: 25px;
+}
+
+fieldset{
+    margin: 10px 800px 20px; 
+    border-color: black;  
+    box-sizing: 10px;
+    box-shadow: 0 0 9px 5px darkgray;
+}
+
+
+/*button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 25px;
+    cursor: pointer;
+}*/
+
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: none;
+    border-radius: 30px;
+    /*box-shadow: 0 9px #999;*/
+  }
+  
+  .button:hover {background-color: #e93939}
+  
+  .button:active {
+    background-color: #e93939;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  label{
+    font-size: 15px;
+  }
+
+  .container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(22, 21, 21);
+    border-radius: 15px;
+    padding: 25px 10px;
+    box-shadow: 0 0 15px rgb(80, 79, 79);
+}
+
+input, select{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(48, 46, 46);
+}
